@@ -1,0 +1,55 @@
+{
+    "workflowApiVersion": "1.0",
+    "metaData": {
+        "version": "2.0",
+        "icon": "http://aobongda.com/uploads/Photo/Icon/red_pin_map_location-256.png",
+        "iconSmall": "http://aobongda.com/uploads/Photo/Icon/red_pin_map_location-256.png"
+    },
+    "type": "REST",
+    "lang": {
+        "en-US": {
+            "name": "Logger",
+            "description": "Custom Logging Activity for Journey Builder"
+        }
+    },
+    "arguments": {
+        "execute": {
+			"inArguments":[],
+            "outArguments": [],
+			"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/execute",
+            "verb": "POST",
+            "body": "",
+            "header": "",
+            "format": "json",
+            "useJwt": false,
+            "timeout": 10000
+        }
+    },
+    "configurationArguments": {
+    	"applicationExtensionKey": "012e42d9-07f9-4b44-9969-da79cafe9544",
+        "defaults": { "priority": "4"},
+        "save": {
+        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/save",
+            "body": "",
+            "verb": "POST",
+            "useJwt": false
+        },
+        "publish": {
+        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/publish",
+            "verb": "POST",
+            "body": "",
+            "useJwt": false
+        },
+        "validate": {
+        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/validate",
+            "verb": "POST",
+            "body": "",
+            "useJwt": false
+        }
+    },
+    "edit": {
+    	"url": "https://www.dropbox.com/s/rhejjis7dytpam7/index.html?dl=0&raw=1",
+        "height": 400,
+        "width": 500
+    }
+}
