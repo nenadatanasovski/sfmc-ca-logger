@@ -26,7 +26,7 @@
         }
     },
     "configurationArguments": {
-    	"applicationExtensionKey": "012e42d9-07f9-4b44-9969-da79cafe9544",
+    	"applicationExtensionKey": "636c89c1-f47d-48a8-b147-421c7425f33f",
         "defaults": { "priority": "4"},
         "save": {
         	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/save",
