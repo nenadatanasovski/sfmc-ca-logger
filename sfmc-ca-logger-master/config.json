@@ -29,26 +29,26 @@
     	"applicationExtensionKey": "636c89c1-f47d-48a8-b147-421c7425f33f",
         "defaults": { "priority": "4"},
         "save": {
-        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/save",
+        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/routes/save.json",
             "body": "",
             "verb": "POST",
             "useJwt": false
         },
         "publish": {
-        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/publish",
+        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/routes/publish.json",
             "verb": "POST",
             "body": "",
             "useJwt": false
         },
         "validate": {
-        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/validate",
+        	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/routes/validate.json",
             "verb": "POST",
             "body": "",
             "useJwt": false
         }
     },
     "edit": {
-    	"url": "https://www.dropbox.com/s/rhejjis7dytpam7/index.html?dl=0&raw=1",
+    	"url": "https://raw.githubusercontent.com/nenadatanasovski/sfmc-ca-logger/master/sfmc-ca-logger-master/index.html",
         "height": 400,
         "width": 500
     }
