@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Control Group Assignment</title>
+	<script data-main="js/main.js" src="js/require.js"></script>
+    <link href="../../lightning/styles/salesforce-lightning-design-system.min.css" rel="stylesheet" type="text/css">
+    <link href="../../css/styles.css" rel="stylesheet">
+</head>
+    <body>
+        <div class="slds-grid">
+            <div class="slds-media slds-container_fluid" style="padding-bottom: 30px;">
+                <div class="slds-media__figure">
+                    <span class="slds-icon_container slds-icon-custom-custom101">
+                        <svg class="slds-icon slds-icon--large" aria-hidden="true">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="../../lightning/icons/standard-sprite/svg/symbols.svg#environment_hub"></use>
+                        </svg>
+                    </span>
+                </div>
+                <div class="slds-media__body">
+                    <h2 class="slds-truncate slds-align-middle" title="Control Group Settings">Elucidity for Journey Builder</h2>
+                    <h1 class="slds-page-header__title slds-truncate slds-align-middle" title="Control Group Settings">Logger Settings</h1>
+                </div>
+            </div>
+        </div>
+        <div id="step1" class="step" style="padding-left: 15px;padding-right: 15px;">
+            <table width="235" align="center">
+                <tr>
+                    <td style="padding-bottom: 20px;">
+                        <div class="slds-text-heading_small">Please enter the value to log to your logging data extension.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="slds-form-element">
+                            <label class="slds-form-element__label" for="text-input-id-1">Log Value</label>
+                            <div class="slds-form-element__control">
+                                <input type="text" id="LogValue" class="slds-input" placeholder="Enter Log Value" value="Conversion"/>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="step2" class="step" style="padding-left: 15px;padding-right: 15px;" hidden>
+            <table width="235" align="center">
+                <tr>
+                    <td>
+                        <div class="slds-text-heading_small">Please review your settings.</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="slds-text-heading_large">Log Value: <span id="showLogValue"></span></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
