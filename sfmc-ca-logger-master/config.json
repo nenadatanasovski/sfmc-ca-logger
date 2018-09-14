@@ -2,8 +2,8 @@
     "workflowApiVersion": "1.0",
     "metaData": {
         "version": "2.0",
-        "icon": "http://aobongda.com/uploads/Photo/Icon/red_pin_map_location-256.png",
-        "iconSmall": "http://aobongda.com/uploads/Photo/Icon/red_pin_map_location-256.png"
+        "icon": "/images/pie.png",
+        "iconSmall": "/images/pie.png"
     },
     "type": "REST",
     "lang": {
